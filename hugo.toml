@@ -1,4 +1,4 @@
-baseURL = 'https://localhost:1313/'
+baseURL = 'https://the-zhengdx.github.io/my_shopping_sage/'
 locale = 'en-us'
 title = 'My Shopping Sage'
 theme = 'mana'
