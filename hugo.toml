@@ -5,7 +5,7 @@ theme = 'mana'
 
 [params]
   description = "Compare, Choose, Save — Simplified Product Reviews"
-  favicon = "images/favicon_128.png"
+  favicon = "images/logo.web"
   footerText = "Built with Hugo and Mana theme"
   
   # Hero section title (optional - defaults to site.Title)
@@ -14,9 +14,9 @@ theme = 'mana'
 
 [params.avatar]
   [params.avatar.home]
-    assetPath = "images/favicon_trs_1024.png"
+    assetPath = "images/logo.webp"
   [params.avatar.about]
-    assetPath = "images/favicon_trs_1024.png"
+    assetPath = "images/logo.webp"
 
 [[menus.main]]
   name = 'Home'
