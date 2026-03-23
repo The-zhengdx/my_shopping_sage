@@ -1,0 +1,40 @@
+baseURL = 'https://localhost:1313/'
+locale = 'en-us'
+title = 'My Shopping Sage'
+theme = 'mana'
+
+[params]
+  description = "Compare, Choose, Save — Simplified Product Reviews"
+  favicon = "images/favicon_128.png"
+  footerText = "Built with Hugo and Mana theme"
+  
+  # Hero section title (optional - defaults to site.Title)
+  heroTitleLine1 = "My Shopping Sage"  # First line of hero title
+  heroTitleLine2 = "Amazon Buying Guides"    # Second line of hero title (optional)
+
+[params.avatar]
+  [params.avatar.home]
+    assetPath = "images/favicon_trs_1024.png"
+  [params.avatar.about]
+    assetPath = "images/favicon_trs_1024.png"
+
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+
+[[menus.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 30
+
+[pagination]
+  pageSize = 10  # Number of posts per page (default: 10)
+
+[outputs]
+  home = ["HTML", "JSON"]
