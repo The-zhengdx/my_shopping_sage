@@ -118,3 +118,5 @@ theme = 'mana'
   startYear = 2026
   owner = "MyShoppingSage. All Rights Reserved"
 
+[params.umami]
+  websiteId = "658c6862-028b-4c7a-a042-5de9278995a3"
