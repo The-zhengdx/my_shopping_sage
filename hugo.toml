@@ -11,6 +11,9 @@ theme = 'mana'
   heroTitleLine1 = "My Shopping Sage"  # First line of hero title
   heroTitleLine2 = "Amazon Buying Guides"    # Second line of hero title (optional)
 
+[params.social]
+  email = "contact-us@myshoppingsage.org"
+
 [params.avatar]
   [params.avatar.home]
     assetPath = "images/logo.webp"
@@ -48,6 +51,16 @@ theme = 'mana'
   name = 'Tags'
   pageRef = '/tags'
   weight = 30
+
+[[menus.main]]
+  name = 'Privacy Policy'
+  pageRef = '/legal/privacy-policy'
+  weight = 40
+
+[[menus.main]]
+  name = 'Affiliate Disclosure'
+  pageRef = '/legal/affiliate-disclosure'
+  weight = 50
 
 [pagination]
   pageSize = 10  # Number of posts per page (default: 10)
@@ -100,3 +113,8 @@ theme = 'mana'
     guessSyntax = true
     noClasses = false
     style = "catppuccin-macchiato"
+
+[params.copyright]
+  startYear = 2026
+  owner = "MyShoppingSage. All Rights Reserved"
+
