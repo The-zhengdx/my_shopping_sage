@@ -1,0 +1,19 @@
+<footer class="site-footer">
+    <div class="footer-content">
+        <p class="footer-text">
+            <a href="/legal/privacy-policy">Privacy Policy</a> | <a href="/legal/affiliate-disclosure">Affiliate Disclosure</a>
+        </p>
+        <p class="footer-text">
+            &copy;
+            {{/* prettier-ignore-start */}}
+            {{ if site.Params.copyright.startYear }}{{ site.Params.copyright.startYear }}-{{ end }}{{ now.Year }}
+            {{/* prettier-ignore-end */}}
+            {{ site.Params.copyright.owner | default site.Title }}.
+        </p>
+        <p class="footer-text">
+            {{ if site.Params.footerText }}
+            {{ site.Params.footerText }}
+            {{ end }}
+        </p>
+    </div>
+</footer>

@@ -1,0 +1,35 @@
+.footer-text a {
+    color: var(--text-primary);
+    text-decoration: underline;
+}
+
+.post-content-main table {
+    width: 100%;
+    font-size: 1rem;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    color: var(--text-primary);
+}
+
+.post-content-main th {
+    text-align: middle;
+    padding: var(--spacing-sm);
+    border: 2px solid var(--border-color);
+    background-color: rgb(128, 135, 176);
+}
+
+.post-content-main td {
+    text-align: left;
+    padding: var(--spacing-sm);
+    border: 2px solid var(--border-color);
+}
+
+.post-content-main tr:nth-child(even) {
+    background: var(--bg-secondary);
+}
+
+.post-content-main tr:hover {
+    background: var(--bg-tertiary);
+    transition: background 0.2s ease;
+}
