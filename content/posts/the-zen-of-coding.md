@@ -1,6 +1,5 @@
 +++
 date = '2026-05-06T16:07:13+08:00'
-draft = true
 title = 'The Zen of Coding: Building the Ultimate "One-Cable" Productivity Sanctuary'
 subtitle = 'Building the Ultimate "One-Cable" Productivity Sanctuary'
 tag = ['Programer', 'Code']
